@@ -1,0 +1,58 @@
+! scrollbar style - rxvt (default), plain (most compact), next, or xterm
+
+!URxvt.perl-ext:
+!URxvt.perl-ext-common:
+
+!------------------------------------------------------
+!
+!	U R X V T - Settings
+!
+URxvt*geometry:					100x35
+URxvt*borderLess:				false
+URxvt*depth:					32
+URxvt*scrollBar_right:				true
+URxvt*cursorBlink:				true
+URxvt*scrollColor:				#111111
+URxvt*perl-ext-common:				default,tabbed,matcher
+URxvt.scrollBar:				off
+URxvt.tabbed.tabbar-fg:			 	7
+URxvt.tabbed.tabbar-bg: 			0
+URxvt.tabbed.tab-fg:    			4
+URxvt.tabbed.tab-bg:    			0	
+URxvt*termName:				 	rxvt-256color
+URxvt.matcher.button:				1
+
+!-----------------------------------------------------
+!
+!	U R X V T - Colors
+!
+!-----------------------------------------------------
+
+
+!black
+URxvt.color0:  #000000
+URxvt.color8:  #2B2B2B
+!red
+URxvt.color1:  #FF3737
+URxvt.color9:  #FF1010
+!green
+URxvt.color2:  #82FFB7
+URxvt.color10: #00E461
+!yellow
+URxvt.color3:  #F88017
+URxvt.color11: #FAAA63
+!blue
+URxvt.color4:  #566060
+URxvt.color12: #889393
+!magenta
+URxvt.color5:  #8E4948
+URxvt.color13: #C67C78
+!cyan
+URxvt.color6:  #82CAFF
+URxvt.color14: #82FFF6
+!white
+URxvt.color7:  #8D8D8D
+URxvt.color15: #C6C6C6
+
+urxvt.background: #1c1c1c
+urxvt.foreground: 15
